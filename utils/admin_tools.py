@@ -10,7 +10,7 @@ def kill_bot(message):
         kill_bot.check_sure = True
         return
     value_to_file(config.FileLocation.bot_killed, 1)
-    my_bot.send_document(message.chat.id, 'https://t.me/mechmath/169445',
+    my_bot.send_document(message.chat.id, 'https://t.me/rfd_life_bot',
                          caption='Ухожу на отдых!', reply_to_message_id=message.message_id)
     user_action_log(message, 'remotely killed bot.')
     sys.exit(0)
