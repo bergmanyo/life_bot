@@ -9,8 +9,8 @@ import os
 #
 # OR
 #
-# Manually through defaults in this file
-# Important: untrack file to prevent accidential private token pushing:
+# Вручную, используя значения по умолчанию в этом файле.
+# Важно: отменить отслеживание файла, чтобы предотвратить случайное нажатие на частный токен:
 # 'git update-index --assume-unchanged tokens.py'
 
 # [ Required ]
